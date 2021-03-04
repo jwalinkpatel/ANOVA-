@@ -1,0 +1,24 @@
+---
+title: "HW 03: ANOVA + Multiple linear regression"
+author: "INSERT NAME"
+date: "INSERT DATE"
+output: 
+  pdf_document: 
+    fig_height: 4
+    fig_width: 6
+---
+
+```{r load-packages, warning = FALSE, message = FALSE}
+# load packages
+```
+
+```{r load-data, warning = FALSE, message = FALSE}
+# load data set
+```
+
+## Question 1
+
+
+## Question 2
+
+...
