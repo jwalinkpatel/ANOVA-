@@ -1,7 +1,7 @@
 ---
 title: "HW 03: ANOVA + Multiple linear regression"
-author: "INSERT NAME"
-date: "INSERT DATE"
+author: "Jwalin Patel"
+date: "15/03/2021"
 output: 
   pdf_document: 
     fig_height: 4
@@ -9,16 +9,23 @@ output:
 ---
 
 ```{r load-packages, warning = FALSE, message = FALSE}
-# load packages
+library(tidyverse)
+library(broom)
+library(knitr)
 ```
 
 ```{r load-data, warning = FALSE, message = FALSE}
-# load data set
+babies <- read.csv
 ```
 
 ## Question 1
-
+$H0:u_1=u_2=u_3=u_4=u_5\ vs\ Ha:atleast\ one\ u_i\ is\ not\ equal\ to\ another$ 
 
 ## Question 2
+To evaluate these hypothesis, the p-value is calculated using an F distribution with K-1 and n-K degrees of freedom. Therefore: $(5 -1) = 4$, and $(45 - 5) = 40$ $degrees of freedom$.
 
+## Question 3
+Since the p-value of 0.0168 in consideration is less than our significance level of $a = 0.05$, we can say that the data provides sufficient evidence that at least one of the teaching methods has/have a mean test score that is different from the other teaching methods. Therefore, we can reject the null hypothesis.
+
+## Question 4
 ...
